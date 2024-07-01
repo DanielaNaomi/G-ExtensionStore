@@ -4,18 +4,12 @@
     "authors": [
       {
         "name": "DanielaNaomi",
-        "hotel": "(optional)",
-        "username": "(optional)",
-        "discord": "(optional),
-        "twitter": "(optional)"
       }
     ],
-    "version": "1.3",
+    "version": "1.4",
     "categories": ["Fun"],
     
     "source": "https://github.com/DanielaNaomi/StickiesArt",
-    "readme": "(optional) readme file",
-    "releases": "(optional) releases page to share release notes"
     
     "stable": true,
     
