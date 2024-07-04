@@ -5913,7 +5913,7 @@
   },
   {
     "title": "Talk To Shout Origins",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "_object": {
       "title": "Talk To Shout Origins",
       "description": "Talk to shout, Shout to Talk, switch the functions with eachother",
@@ -5925,7 +5925,7 @@
           "discord": "@eduard"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.1.1",
       "categories": [
         "Usability"
       ],
@@ -5934,14 +5934,14 @@
       "stable": true,
       "framework": {
         "name": "GoEarth",
-        "version": "0.0.1"
+        "version": "0.1.6"
       },
       "language": "Go",
       "commands": {
         "default": [
           "cmd",
           "/C",
-          "TalkToShout-Win.exe",
+          "TalkToShout-win.exe",
           "-c",
           "{cookie}",
           "-p",
@@ -5952,7 +5952,7 @@
         "windows": [
           "cmd",
           "/C",
-          "TalkToShout-Win.exe",
+          "TalkToShout-win.exe",
           "-c",
           "{cookie}",
           "-p",
@@ -5963,9 +5963,9 @@
         "mac": [
           "chmod",
           "+x",
-          "TalkToShout-Mac",
+          "TalkToShout-mac",
           "&&",
-          "./TalkToShout-Mac",
+          "./TalkToShout-mac",
           "-c",
           "{cookie}",
           "-p",
@@ -5976,9 +5976,9 @@
         "linux": [
           "chmod",
           "+x",
-          "TalkToShout-Linux",
+          "TalkToShout-linux",
           "&&",
-          "./TalkToShout-Linux",
+          "./TalkToShout-linux",
           "-c",
           "{cookie}",
           "-p",
@@ -5998,7 +5998,7 @@
         ]
       },
       "submissionDate": "26-06-2024 02:40:00",
-      "updateDate": "26-06-2024 02:40:00",
+      "updateDate": "02-07-2024 01:33:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -6011,8 +6011,194 @@
         "timestamp": 1719364946004,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1257128082733797457",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1719793091624,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1257494343879626772",
+        "extVersion": "1.1.1",
+        "type": "update",
+        "timestamp": 1719880415137,
+        "locked": false,
+        "score": 25
       }
     ],
-    "latestEmbed": 1719364946004
+    "latestEmbed": 1719793091624
+  },
+  {
+    "title": "StickiesArt",
+    "version": "1.4",
+    "_object": {
+      "title": "StickiesArt",
+      "description": "Write letters or phrases with stickies in your room or rooms where you have permission",
+      "authors": [
+        {
+          "name": "DanielaNaomi"
+        }
+      ],
+      "version": "1.4",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/DanielaNaomi/StickiesArt",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "StickiesArt.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "30-06-2024 19:50:10",
+      "updateDate": "30-06-2024 19:50:10",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1257144481619382332",
+        "extVersion": "1.4",
+        "type": "publish",
+        "timestamp": 1719797001615,
+        "locked": false,
+        "score": 180
+      }
+    ],
+    "latestEmbed": 1719797001615
+  },
+  {
+    "title": "G-Trader",
+    "version": "0.1.1",
+    "_object": {
+      "title": "G-Trader",
+      "description": "Adds a :trade [amount] command to automatically add multiples of an item to the trade in Habbo Origins.",
+      "authors": [
+        {
+          "name": "0xb0bba",
+          "discord": "disciplined"
+        }
+      ],
+      "version": "0.1.1",
+      "categories": [
+        "Usability",
+        "Trading"
+      ],
+      "source": "https://github.com/0xb0bba/G-Trader/",
+      "readme": "https://github.com/0xb0bba/G-Trader/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.1.6"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "g-trader-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "g-trader-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "g-trader-mac",
+          "&&",
+          "./g-trader-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "g-trader-linux",
+          "&&",
+          "./g-trader-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "03-07-2024 16:00:00",
+      "updateDate": "03-07-2024 16:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1258099739224703019",
+        "extVersion": "0.1.1",
+        "type": "publish",
+        "timestamp": 1720024752567,
+        "locked": false,
+        "score": 180
+      }
+    ],
+    "latestEmbed": 1720024752567
   }
 ]

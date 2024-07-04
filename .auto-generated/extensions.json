@@ -1674,6 +1674,95 @@
     "rating": 755
   },
   {
+    "title": "G-Trader",
+    "description": "Adds a :trade [amount] command to automatically add multiples of an item to the trade in Habbo Origins.",
+    "authors": [
+      {
+        "name": "0xb0bba",
+        "discord": "disciplined",
+        "extensionsCount": 1,
+        "reputation": 190
+      }
+    ],
+    "version": "0.1.1",
+    "categories": [
+      "Usability",
+      "Trading"
+    ],
+    "source": "https://github.com/0xb0bba/G-Trader/",
+    "readme": "https://github.com/0xb0bba/G-Trader/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.1.6"
+    },
+    "language": "Go",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "g-trader-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "g-trader-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "mac": [
+        "chmod",
+        "+x",
+        "g-trader-mac",
+        "&&",
+        "./g-trader-mac",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "linux": [
+        "chmod",
+        "+x",
+        "g-trader-linux",
+        "&&",
+        "./g-trader-linux",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "clients": [
+        "Origins"
+      ]
+    },
+    "submissionDate": "03-07-2024 16:00:00",
+    "updateDate": "03-07-2024 16:00:00",
+    "isOutdated": false,
+    "rating": 190
+  },
+  {
     "title": "G-Translator",
     "description": "Visit any hotel you want!",
     "authors": [
@@ -3505,6 +3594,55 @@
     "rating": 90
   },
   {
+    "title": "StickiesArt",
+    "description": "Write letters or phrases with stickies in your room or rooms where you have permission",
+    "authors": [
+      {
+        "name": "DanielaNaomi",
+        "extensionsCount": 1,
+        "reputation": 190
+      }
+    ],
+    "version": "1.4",
+    "categories": [
+      "Fun"
+    ],
+    "source": "https://github.com/DanielaNaomi/StickiesArt",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "StickiesArt.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "30-06-2024 19:50:10",
+    "updateDate": "30-06-2024 19:50:10",
+    "isOutdated": false,
+    "rating": 190
+  },
+  {
     "title": "Talk To Shout Origins",
     "description": "Talk to shout, Shout to Talk, switch the functions with eachother",
     "authors": [
@@ -3514,10 +3652,10 @@
         "username": "3duard",
         "discord": "@eduard",
         "extensionsCount": 1,
-        "reputation": 110
+        "reputation": 155
       }
     ],
-    "version": "1.0.1",
+    "version": "1.1.1",
     "categories": [
       "Usability"
     ],
@@ -3526,14 +3664,14 @@
     "stable": true,
     "framework": {
       "name": "GoEarth",
-      "version": "0.0.1"
+      "version": "0.1.6"
     },
     "language": "Go",
     "commands": {
       "default": [
         "cmd",
         "/C",
-        "TalkToShout-Windows.exe",
+        "TalkToShout-win.exe",
         "-c",
         "{cookie}",
         "-p",
@@ -3544,7 +3682,7 @@
       "windows": [
         "cmd",
         "/C",
-        "TalkToShout-Windows.exe",
+        "TalkToShout-win.exe",
         "-c",
         "{cookie}",
         "-p",
@@ -3555,9 +3693,9 @@
       "mac": [
         "chmod",
         "+x",
-        "TalkToShout-Mac",
+        "TalkToShout-mac",
         "&&",
-        "./TalkToShout-Mac",
+        "./TalkToShout-mac",
         "-c",
         "{cookie}",
         "-p",
@@ -3568,9 +3706,9 @@
       "linux": [
         "chmod",
         "+x",
-        "TalkToShout-Linux",
+        "TalkToShout-linux",
         "&&",
-        "./TalkToShout-Linux",
+        "./TalkToShout-linux",
         "-c",
         "{cookie}",
         "-p",
@@ -3590,9 +3728,9 @@
       ]
     },
     "submissionDate": "26-06-2024 02:40:00",
-    "updateDate": "26-06-2024 02:40:00",
+    "updateDate": "02-07-2024 01:33:00",
     "isOutdated": false,
-    "rating": 110
+    "rating": 155
   },
   {
     "title": "TradeBlocker",
