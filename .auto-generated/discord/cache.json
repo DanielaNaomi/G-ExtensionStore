@@ -5570,16 +5570,16 @@
   },
   {
     "title": "Chatty",
-    "version": "2.2",
+    "version": "2.3",
     "_object": {
       "title": "Chatty",
-      "description": "Hidden chat - cross-room, cross-hotel\n(Chatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md#terms-of-use)",
+      "description": "Hidden chat - cross-room, cross-hotel\nChatty allows you to exchange end-to-end encrypted messages using the normal Habbo chat, without sending any packets to the Habbo servers.\n\n\nChatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md",
       "authors": [
         {
           "name": "Gitosaur"
         }
       ],
-      "version": "2.2",
+      "version": "2.3",
       "categories": [
         "Usability",
         "Fun",
@@ -5618,7 +5618,7 @@
         ]
       },
       "submissionDate": "24-01-2024 21:45:00",
-      "updateDate": "02-02-2024 21:09:00",
+      "updateDate": "21-03-2024 22:08:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5631,9 +5631,19 @@
         "timestamp": 1707007735371,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1258537667084292206",
+        "extVersion": "2.3",
+        "type": "update",
+        "timestamp": 1720129162630,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1707007735371
+    "latestEmbed": 1720129162630
   },
   {
     "title": "RoomLogger",
@@ -6030,14 +6040,14 @@
         "type": "update",
         "timestamp": 1719880415137,
         "locked": false,
-        "score": 25
+        "score": 50
       }
     ],
     "latestEmbed": 1719793091624
   },
   {
     "title": "StickiesArt",
-    "version": "1.4",
+    "version": "1.5",
     "_object": {
       "title": "StickiesArt",
       "description": "Write letters or phrases with stickies in your room or rooms where you have permission",
@@ -6046,7 +6056,7 @@
           "name": "DanielaNaomi"
         }
       ],
-      "version": "1.4",
+      "version": "1.5",
       "categories": [
         "Fun"
       ],
@@ -6081,7 +6091,7 @@
         ]
       },
       "submissionDate": "30-06-2024 19:50:10",
-      "updateDate": "30-06-2024 19:50:10",
+      "updateDate": "04-07-2024 17:40:10",
       "isOutdated": false
     },
     "discordMessages": [
@@ -6094,13 +6104,23 @@
         "timestamp": 1719797001615,
         "locked": false,
         "score": 180
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1258702285152845897",
+        "extVersion": "1.5",
+        "type": "update",
+        "timestamp": 1720168410665,
+        "locked": false,
+        "score": 50
       }
     ],
-    "latestEmbed": 1719797001615
+    "latestEmbed": 1720168410665
   },
   {
     "title": "G-Trader",
-    "version": "0.1.1",
+    "version": "0.2.1",
     "_object": {
       "title": "G-Trader",
       "description": "Adds a :trade [amount] command to automatically add multiples of an item to the trade in Habbo Origins.",
@@ -6110,13 +6130,14 @@
           "discord": "disciplined"
         }
       ],
-      "version": "0.1.1",
+      "version": "0.2.1",
       "categories": [
         "Usability",
         "Trading"
       ],
       "source": "https://github.com/0xb0bba/G-Trader/",
       "readme": "https://github.com/0xb0bba/G-Trader/blob/main/README.md",
+      "releases": "https://github.com/0xb0bba/G-Trader/releases",
       "stable": true,
       "framework": {
         "name": "GoEarth",
@@ -6184,7 +6205,7 @@
         ]
       },
       "submissionDate": "03-07-2024 16:00:00",
-      "updateDate": "03-07-2024 16:00:00",
+      "updateDate": "05-07-2024 22:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -6196,7 +6217,17 @@
         "type": "publish",
         "timestamp": 1720024752567,
         "locked": false,
-        "score": 180
+        "score": 200
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259028690801791006",
+        "extVersion": "0.2.1",
+        "type": "update",
+        "timestamp": 1720246231923,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1720024752567

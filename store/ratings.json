@@ -269,7 +269,7 @@
   },
   {
     "extension": "Chatty",
-    "rating": 110
+    "rating": 120
   },
   {
     "extension": "RoomLogger",
@@ -285,14 +285,14 @@
   },
   {
     "extension": "Talk To Shout Origins",
-    "rating": 155
+    "rating": 180
   },
   {
     "extension": "StickiesArt",
-    "rating": 190
+    "rating": 250
   },
   {
     "extension": "G-Trader",
-    "rating": 190
+    "rating": 220
   }
 ]

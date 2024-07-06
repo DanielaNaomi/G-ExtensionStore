@@ -271,15 +271,15 @@
   },
   {
     "title": "Chatty",
-    "description": "Hidden chat - cross-room, cross-hotel\n(Chatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md#terms-of-use)",
+    "description": "Hidden chat - cross-room, cross-hotel\nChatty allows you to exchange end-to-end encrypted messages using the normal Habbo chat, without sending any packets to the Habbo servers.\n\n\nChatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md",
     "authors": [
       {
         "name": "Gitosaur",
         "extensionsCount": 1,
-        "reputation": 110
+        "reputation": 120
       }
     ],
-    "version": "2.2",
+    "version": "2.3",
     "categories": [
       "Usability",
       "Fun",
@@ -318,9 +318,9 @@
       ]
     },
     "submissionDate": "24-01-2024 21:45:00",
-    "updateDate": "02-02-2024 21:09:00",
+    "updateDate": "21-03-2024 22:08:00",
     "isOutdated": false,
-    "rating": 110
+    "rating": 120
   },
   {
     "title": "Clear Wired Selection",
@@ -1681,16 +1681,17 @@
         "name": "0xb0bba",
         "discord": "disciplined",
         "extensionsCount": 1,
-        "reputation": 190
+        "reputation": 220
       }
     ],
-    "version": "0.1.1",
+    "version": "0.2.1",
     "categories": [
       "Usability",
       "Trading"
     ],
     "source": "https://github.com/0xb0bba/G-Trader/",
     "readme": "https://github.com/0xb0bba/G-Trader/blob/main/README.md",
+    "releases": "https://github.com/0xb0bba/G-Trader/releases",
     "stable": true,
     "framework": {
       "name": "GoEarth",
@@ -1758,9 +1759,9 @@
       ]
     },
     "submissionDate": "03-07-2024 16:00:00",
-    "updateDate": "03-07-2024 16:00:00",
+    "updateDate": "05-07-2024 22:00:00",
     "isOutdated": false,
-    "rating": 190
+    "rating": 220
   },
   {
     "title": "G-Translator",
@@ -3600,10 +3601,10 @@
       {
         "name": "DanielaNaomi",
         "extensionsCount": 1,
-        "reputation": 190
+        "reputation": 250
       }
     ],
-    "version": "1.4",
+    "version": "1.5",
     "categories": [
       "Fun"
     ],
@@ -3638,9 +3639,9 @@
       ]
     },
     "submissionDate": "30-06-2024 19:50:10",
-    "updateDate": "30-06-2024 19:50:10",
+    "updateDate": "04-07-2024 17:40:10",
     "isOutdated": false,
-    "rating": 190
+    "rating": 250
   },
   {
     "title": "Talk To Shout Origins",
@@ -3652,7 +3653,7 @@
         "username": "3duard",
         "discord": "@eduard",
         "extensionsCount": 1,
-        "reputation": 155
+        "reputation": 180
       }
     ],
     "version": "1.1.1",
@@ -3730,7 +3731,7 @@
     "submissionDate": "26-06-2024 02:40:00",
     "updateDate": "02-07-2024 01:33:00",
     "isOutdated": false,
-    "rating": 155
+    "rating": 180
   },
   {
     "title": "TradeBlocker",
