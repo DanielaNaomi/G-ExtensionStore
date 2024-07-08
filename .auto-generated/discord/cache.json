@@ -5640,7 +5640,7 @@
         "type": "update",
         "timestamp": 1720129162630,
         "locked": false,
-        "score": 0
+        "score": 25
       }
     ],
     "latestEmbed": 1720129162630
@@ -6047,7 +6047,7 @@
   },
   {
     "title": "StickiesArt",
-    "version": "1.5",
+    "version": "1.6",
     "_object": {
       "title": "StickiesArt",
       "description": "Write letters or phrases with stickies in your room or rooms where you have permission",
@@ -6056,7 +6056,7 @@
           "name": "DanielaNaomi"
         }
       ],
-      "version": "1.5",
+      "version": "1.6",
       "categories": [
         "Fun"
       ],
@@ -6091,7 +6091,7 @@
         ]
       },
       "submissionDate": "30-06-2024 19:50:10",
-      "updateDate": "04-07-2024 17:40:10",
+      "updateDate": "06-07-2024 11:12:10",
       "isOutdated": false
     },
     "discordMessages": [
@@ -6114,23 +6114,33 @@
         "timestamp": 1720168410665,
         "locked": false,
         "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259189192551043174",
+        "extVersion": "1.6",
+        "type": "update",
+        "timestamp": 1720284498940,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1720168410665
   },
   {
     "title": "G-Trader",
-    "version": "0.2.1",
+    "version": "0.4.0",
     "_object": {
       "title": "G-Trader",
-      "description": "Adds a :trade [amount] command to automatically add multiples of an item to the trade in Habbo Origins.",
+      "description": "Adds useful commands for trading and inventory management in Habbo Origins\n:trade [amount] Automatically adds multiple items to the trade\n:count Count items in your hand\n:countroom Count items in the room\n:viewtrade View trade info",
       "authors": [
         {
           "name": "0xb0bba",
           "discord": "disciplined"
         }
       ],
-      "version": "0.2.1",
+      "version": "0.4.0",
       "categories": [
         "Usability",
         "Trading"
@@ -6141,7 +6151,7 @@
       "stable": true,
       "framework": {
         "name": "GoEarth",
-        "version": "0.1.6"
+        "version": "0.2.3"
       },
       "language": "Go",
       "commands": {
@@ -6205,7 +6215,7 @@
         ]
       },
       "submissionDate": "03-07-2024 16:00:00",
-      "updateDate": "05-07-2024 22:00:00",
+      "updateDate": "07-07-2024 17:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -6217,7 +6227,7 @@
         "type": "publish",
         "timestamp": 1720024752567,
         "locked": false,
-        "score": 200
+        "score": 220
       },
       {
         "channelId": "878094299403788330",
@@ -6228,8 +6238,341 @@
         "timestamp": 1720246231923,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259189191024316470",
+        "extVersion": "0.3.0",
+        "type": "update",
+        "timestamp": 1720284498042,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259526218827436042",
+        "extVersion": "0.4.0",
+        "type": "update",
+        "timestamp": 1720364851616,
+        "locked": false,
+        "score": 75
       }
     ],
-    "latestEmbed": 1720024752567
+    "latestEmbed": 1720284498042
+  },
+  {
+    "title": "fastbuy",
+    "version": "1.0",
+    "_object": {
+      "title": "fastbuy",
+      "description": "An extension to purchase items in bulk from the store.",
+      "authors": [
+        {
+          "name": "chirp24",
+          "hotel": ".com",
+          "username": "chirp",
+          "discord": "@p1nk_axoloti"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/chirp24/fastbuy/",
+      "readme": "https://github.com/chirp24/fastbuy/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "fastbuy-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "fastbuy-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "fastbuy-mac",
+          "&&",
+          "./fastbuy-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "fastbuy-linux",
+          "&&",
+          "./fastbuy-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "06-07-2024 09:00:00",
+      "updateDate": "06-07-2024 09:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259189189170429972",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1720284497640,
+        "locked": false,
+        "score": 160
+      }
+    ],
+    "latestEmbed": 1720284497640
+  },
+  {
+    "title": "easydice",
+    "version": "1.3",
+    "_object": {
+      "title": "easydice",
+      "description": "Use :setup, and reset/roll 5 dice in order. Now, :close, and :roll will roll/close those dice for you.",
+      "authors": [
+        {
+          "name": "chirp24",
+          "hotel": ".com",
+          "username": "chirp",
+          "discord": "@p1nk_axoloti"
+        }
+      ],
+      "version": "1.3",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/chirp24/easydice/tree/main",
+      "readme": "https://github.com/chirp24/easydice/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "easydice-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "easydice-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "easydice-mac",
+          "&&",
+          "./fastbuy-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "easydice-linux",
+          "&&",
+          "./fastbuy-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "07-07-2024 07:00:00",
+      "updateDate": "07-07-2024 19:50:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259462479168405646",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1720349654965,
+        "locked": false,
+        "score": 120
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259629836981506222",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1720389556388,
+        "locked": false,
+        "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259651262157164586",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1720394664550,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259668561170010235",
+        "extVersion": "1.3",
+        "type": "update",
+        "timestamp": 1720398788892,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1720349654965
+  },
+  {
+    "title": "G-WallMover",
+    "version": "1.0",
+    "_object": {
+      "title": "G-WallMover",
+      "description": "Lets you Move fast Wall Items in Origin by scrolling with your Mousewheel\nUse the Command #wallmover to open the app",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/QDaves/G-WallMover",
+      "readme": "https://github.com/QDaves/G-WallMover/blob/master/README.md",
+      "releases": "https://github.com/QDaves/G-WallMover/releases",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "G-WallMover-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "G-WallMover-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "06-07-2024 23:45:00",
+      "updateDate": "06-07-2024 23:45:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259463114059944087",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1720349806375,
+        "locked": false,
+        "score": 320
+      }
+    ],
+    "latestEmbed": 1720349806375
   }
 ]

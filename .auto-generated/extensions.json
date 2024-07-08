@@ -276,7 +276,7 @@
       {
         "name": "Gitosaur",
         "extensionsCount": 1,
-        "reputation": 120
+        "reputation": 145
       }
     ],
     "version": "2.3",
@@ -320,7 +320,7 @@
     "submissionDate": "24-01-2024 21:45:00",
     "updateDate": "21-03-2024 22:08:00",
     "isOutdated": false,
-    "rating": 120
+    "rating": 145
   },
   {
     "title": "Clear Wired Selection",
@@ -1675,16 +1675,16 @@
   },
   {
     "title": "G-Trader",
-    "description": "Adds a :trade [amount] command to automatically add multiples of an item to the trade in Habbo Origins.",
+    "description": "Adds useful commands for trading and inventory management in Habbo Origins\n:trade [amount] Automatically adds multiple items to the trade\n:count Count items in your hand\n:countroom Count items in the room\n:viewtrade View trade info",
     "authors": [
       {
         "name": "0xb0bba",
         "discord": "disciplined",
         "extensionsCount": 1,
-        "reputation": 220
+        "reputation": 335
       }
     ],
-    "version": "0.2.1",
+    "version": "0.4.0",
     "categories": [
       "Usability",
       "Trading"
@@ -1695,7 +1695,7 @@
     "stable": true,
     "framework": {
       "name": "GoEarth",
-      "version": "0.1.6"
+      "version": "0.2.3"
     },
     "language": "Go",
     "commands": {
@@ -1759,9 +1759,9 @@
       ]
     },
     "submissionDate": "03-07-2024 16:00:00",
-    "updateDate": "05-07-2024 22:00:00",
+    "updateDate": "07-07-2024 17:00:00",
     "isOutdated": false,
-    "rating": 220
+    "rating": 335
   },
   {
     "title": "G-Translator",
@@ -1880,6 +1880,67 @@
     "updateDate": "16-06-2023 05:05:00",
     "isOutdated": false,
     "rating": 800
+  },
+  {
+    "title": "G-WallMover",
+    "description": "Lets you Move fast Wall Items in Origin by scrolling with your Mousewheel\nUse the Command #wallmover to open the app",
+    "authors": [
+      {
+        "name": "QDave",
+        "discord": "qdave",
+        "extensionsCount": 1,
+        "reputation": 330
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/QDaves/G-WallMover",
+    "readme": "https://github.com/QDaves/G-WallMover/blob/master/README.md",
+    "releases": "https://github.com/QDaves/G-WallMover/releases",
+    "stable": true,
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.2.3"
+    },
+    "language": "Go",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "G-WallMover-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "G-WallMover-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Origins"
+      ]
+    },
+    "submissionDate": "06-07-2024 23:45:00",
+    "updateDate": "06-07-2024 23:45:00",
+    "isOutdated": false,
+    "rating": 330
   },
   {
     "title": "G-Whisper",
@@ -3601,10 +3662,10 @@
       {
         "name": "DanielaNaomi",
         "extensionsCount": 1,
-        "reputation": 250
+        "reputation": 260
       }
     ],
-    "version": "1.5",
+    "version": "1.6",
     "categories": [
       "Fun"
     ],
@@ -3639,9 +3700,9 @@
       ]
     },
     "submissionDate": "30-06-2024 19:50:10",
-    "updateDate": "04-07-2024 17:40:10",
+    "updateDate": "06-07-2024 11:12:10",
     "isOutdated": false,
-    "rating": 250
+    "rating": 260
   },
   {
     "title": "Talk To Shout Origins",
@@ -4074,6 +4135,186 @@
       "version": "0.2.15"
     },
     "rating": 160
+  },
+  {
+    "title": "easydice",
+    "description": "Use :setup, and reset/roll 5 dice in order. Now, :close, and :roll will roll/close those dice for you.",
+    "authors": [
+      {
+        "name": "chirp24",
+        "hotel": ".com",
+        "username": "chirp",
+        "discord": "@p1nk_axoloti",
+        "extensionsCount": 2,
+        "reputation": 355
+      }
+    ],
+    "version": "1.3",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/chirp24/easydice/tree/main",
+    "readme": "https://github.com/chirp24/easydice/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.2.3"
+    },
+    "language": "Go",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "easydice-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "easydice-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "mac": [
+        "chmod",
+        "+x",
+        "easydice-mac",
+        "&&",
+        "./fastbuy-mac",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "linux": [
+        "chmod",
+        "+x",
+        "easydice-linux",
+        "&&",
+        "./fastbuy-linux",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "clients": [
+        "Origins"
+      ]
+    },
+    "submissionDate": "07-07-2024 07:00:00",
+    "updateDate": "07-07-2024 19:50:00",
+    "isOutdated": false,
+    "rating": 185
+  },
+  {
+    "title": "fastbuy",
+    "description": "An extension to purchase items in bulk from the store.",
+    "authors": [
+      {
+        "name": "chirp24",
+        "hotel": ".com",
+        "username": "chirp",
+        "discord": "@p1nk_axoloti",
+        "extensionsCount": 2,
+        "reputation": 355
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/chirp24/fastbuy/",
+    "readme": "https://github.com/chirp24/fastbuy/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.2.3"
+    },
+    "language": "Go",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "fastbuy-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "fastbuy-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "mac": [
+        "chmod",
+        "+x",
+        "fastbuy-mac",
+        "&&",
+        "./fastbuy-mac",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "linux": [
+        "chmod",
+        "+x",
+        "fastbuy-linux",
+        "&&",
+        "./fastbuy-linux",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "clients": [
+        "Origins"
+      ]
+    },
+    "submissionDate": "06-07-2024 09:00:00",
+    "updateDate": "06-07-2024 09:00:00",
+    "isOutdated": false,
+    "rating": 170
   },
   {
     "title": "xabbo",
